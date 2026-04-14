@@ -8,7 +8,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             {/* EDIT HERE - Your Logo or Name */}
             <Link href="#" className="font-semibold text-xl tracking-wide text-white">
-              Portfolio.
+              DS.
             </Link>
           </div>
           <div className="hidden md:flex space-x-10">
