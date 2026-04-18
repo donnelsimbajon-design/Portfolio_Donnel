@@ -25,7 +25,7 @@ export default function Hero() {
 
         {/* EDIT HERE — Your Name */}
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-white mb-6">
-          Donnel Simbajon
+          My Portfolio
         </h1>
 
         {/* EDIT HERE — Your Title */}
@@ -60,11 +60,12 @@ export default function Hero() {
         className="hidden lg:block w-[50%] absolute top-0 right-0 h-full animate-[fadeIn_1s_ease-out_0.3s_forwards] opacity-0"
         style={{ clipPath: 'polygon(20% 0%, 100% 0%, 100% 100%, 5% 100%)' }}
       >
-        <img
+        {/*<img
           src="/hero.png"
           alt="Developer portrait"
           className="w-full h-full object-cover"
-        />
+        />*/}
+
         {/* Dark overlay on the image */}
         <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
       </div>
